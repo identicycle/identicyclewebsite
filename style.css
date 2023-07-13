@@ -127,3 +127,63 @@
     margin: 20px;
     text-align: center;
 }
+.timeLineContainer{
+    background-color: rgba(1,1,1,1);
+    position: relative;
+    height: 1500px;
+    text-align: center;
+
+}
+.timeLineBar{
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    width: 75%;
+    left: 12.5%;
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.blockTimeLine{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;   
+}
+.win1{
+    background-color: brown;
+    width: 25%;
+    top: 6%;
+    left: 7%;
+    height: 25%;
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid purple;
+
+}
+.sum2{
+    background-color:#a129b7;
+    width: 25%;
+    top: 6%;
+    right: 7%;
+    height: 25%;
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid purple;
+}
+.sum1{
+    background-color:aquamarine;
+    width: 25%;
+    bottom: 6%;
+    left: 35%;
+    height: 25%;
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid purple;
+}
+.hidde{
+    background-color: azure;
+}
