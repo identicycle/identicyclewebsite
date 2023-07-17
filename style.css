@@ -157,8 +157,9 @@ body{
     margin: 20px;
     text-align: center;
 }
-.timeLineContainer{
-    background-color: rgba(1,1,1,1);
+
+
+.timeline{
     position: relative;
     max-width: 100vh;
     margin: 6vh auto;
@@ -221,12 +222,8 @@ body{
 .right-container img{
     left: -20px;
 }
-.win1{
-    background-color: brown;
-    width: 25%;
-    top: 6%;
-    left: 7%;
-    height: 25%;
+.timeline::after{
+    content: '';
     position: absolute;
     width: 6px;
     height: 100%;
@@ -253,12 +250,9 @@ body{
     display: inline-block;
     margin-bottom: 15px;
 }
-.sum2{
-    background-color:#a129b7;
-    width: 25%;
-    top: 6%;
-    right: 7%;
-    height: 25%;
+.rigth-container-arrow{
+    height: 0;
+    width: 0;
     position: absolute;
     top: 28px;
     z-index: 1;
@@ -267,12 +261,9 @@ body{
     border-right: 15px solid white;
     left:-15px;
 }
-.sum1{
-    background-color:aquamarine;
-    width: 25%;
-    bottom: 6%;
-    left: 35%;
-    height: 25%;
+.left-container-arrow{
+    height: 0;
+    width: 0;
     position: absolute;
     top: 28px;
     z-index: 1;
