@@ -50,7 +50,7 @@ body{
 .navbar ul li:hover::after{
     width: 50;
 }
-.content{
+.animation{
     width: 98%;
     position: absolute;
     top: 25%;
@@ -71,6 +71,15 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     animation: bg-spin 3s linear infinite;
+  }
+.content{
+    width: 98%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    color:#fff;
+    padding-bottom: 15vh;
+    padding-top: 8vh;
   }
   @keyframes bg-spin {
     to {
