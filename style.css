@@ -475,7 +475,7 @@ Bongo cat
   background-size: cover;
 }
 .card:nth-child(7):before {
-  background-image: url(img/croppednabiha.jpg);
+  background-image: url(img/croppednabiha.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -485,12 +485,12 @@ Bongo cat
   background-size: cover;
 }
 .card:nth-child(9):before {
-    background-image: url(img/croppedroxanne.jpg);
+    background-image: url(img/croppedroxanne.jpeg);
     background-position: center;
     background-size: cover;
   }
   .card:nth-child(10):before {
-    background-image: url(img/croppedroxanne.jpg);
+    background-image: url(img/croppedelizabethpic.jpeg);
     background-position: center;
     background-size: cover;
   }
@@ -678,7 +678,7 @@ Bongo cat
         background-size: cover;
       }
       .card-mascot:nth-child(3):before {
-        background-image: url(img/kitty.jpg);
+        background-image: url(img/kiki.jpg);
         background-position: center;
         background-size: cover;
       }
